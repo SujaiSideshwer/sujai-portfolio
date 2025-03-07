@@ -50,7 +50,10 @@ const Projects = () => {
           {/* Video Section */}
           <div className="flex justify-center items-center">
             <video controls className="rounded-lg shadow-md w-full max-w-2xl">
-              <source src="videos/project-demo.mp4" type="video/mp4" />
+              <source
+                src="videos/CloneFlix - Google Chrome 2025-03-07 23-45-40.mp4"
+                type="video/mp4"
+              />
               Your browser does not support the video tag.
             </video>
           </div>
