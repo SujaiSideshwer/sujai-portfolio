@@ -1,15 +1,30 @@
 export function Skills() {
   const skills = [
-    { name: "React", logo: "./src/assets/tech-logos/react.svg" },
-    { name: "Node.js", logo: "./src/assets/tech-logos/nodejsStackedDark.svg" },
-    { name: "Express.js", logo: "src/assets/tech-logos/expressjs.svg" },
-    { name: "PostgreSQL", logo: "src/assets/tech-logos/postgresql.svg" },
-    { name: "MongoDB", logo: "src/assets/tech-logos/MongoDB.png" },
-    { name: "JavaScript", logo: "src/assets/tech-logos/javascript.svg" },
-    { name: "Tailwind CSS", logo: "src/assets/tech-logos/tailwindcss.svg" },
-    { name: "AWS", logo: "src/assets/tech-logos/aws.svg" },
-    { name: "Git", logo: "src/assets/tech-logos/git.svg" },
-    { name: "Jira", logo: "src/assets/tech-logos/jira.svg" },
+    { name: "React", logo: "/sujai-portfolio/assets/tech-logos/react.svg" },
+    {
+      name: "Node.js",
+      logo: "/sujai-portfolio/assets/tech-logos/nodejsStackedDark.svg",
+    },
+    {
+      name: "Express.js",
+      logo: "/sujai-portfolio/assets/tech-logos/expressjs.svg",
+    },
+    {
+      name: "PostgreSQL",
+      logo: "/sujai-portfolio/assets/tech-logos/postgresql.svg",
+    },
+    { name: "MongoDB", logo: "/sujai-portfolio/assets/tech-logos/MongoDB.png" },
+    {
+      name: "JavaScript",
+      logo: "/sujai-portfolio/assets/tech-logos/javascript.svg",
+    },
+    {
+      name: "Tailwind CSS",
+      logo: "/sujai-portfolio/assets/tech-logos/tailwindcss.svg",
+    },
+    { name: "AWS", logo: "/sujai-portfolio/assets/tech-logos/aws.svg" },
+    { name: "Git", logo: "/sujai-portfolio/assets/tech-logos/git.svg" },
+    { name: "Jira", logo: "/sujai-portfolio/assets/tech-logos/jira.svg" },
   ];
 
   return (
