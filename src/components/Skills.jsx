@@ -1,7 +1,7 @@
 export function Skills() {
   const skills = [
-    { name: "React", logo: "src/assets/tech-logos/react.svg" },
-    { name: "Node.js", logo: "src/assets/tech-logos/nodejsStackedDark.svg" },
+    { name: "React", logo: "./src/assets/tech-logos/react.svg" },
+    { name: "Node.js", logo: "./src/assets/tech-logos/nodejsStackedDark.svg" },
     { name: "Express.js", logo: "src/assets/tech-logos/expressjs.svg" },
     { name: "PostgreSQL", logo: "src/assets/tech-logos/postgresql.svg" },
     { name: "MongoDB", logo: "src/assets/tech-logos/MongoDB.png" },

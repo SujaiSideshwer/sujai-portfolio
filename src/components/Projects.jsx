@@ -85,15 +85,15 @@ export function Projects() {
       repo: "https://github.com/SujaiSideshwer/PERN-Stack-Event-App",
       media: [
         {
-          src: "src/assets/event-app/loginscreen.jpg",
+          src: "./src/assets/event-app/loginscreen.jpg",
           caption: "Login Page",
         },
         {
-          src: "src/assets/event-app/signupscreen.jpg",
+          src: "./src/assets/event-app/signupscreen.jpg",
           caption: "Signup Page",
         },
         {
-          src: "src/assets/event-app/eventscreen-1.jpg",
+          src: "./src/assets/event-app/eventscreen-1.jpg",
           caption:
             "Events Page - Lists all enlisted events available for booking",
         },
