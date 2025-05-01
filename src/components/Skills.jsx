@@ -1,56 +1,32 @@
-import React from "react";
-
-const Skills = () => {
-  const skills = {
-    "Front-End": [
-      "React",
-      "JavaScript (ES6+)",
-      "HTML5",
-      "CSS3",
-      "Tailwind CSS",
-      "Bootstrap",
-    ],
-    "Back-End": ["Node.js", "Express", "RESTful APIs", "Axios"],
-    Databases: ["PostgreSQL", "MongoDB"],
-    Tools: ["Git", "GitHub", "Jira"],
-    Other: [
-      "OOP",
-      "Data Structures",
-      "Algorithms",
-      "Problem Solving",
-      "Unit Testing",
-    ],
-  };
+export function Skills() {
+  const skills = [
+    { name: "React", logo: "src/assets/tech-logos/react.svg" },
+    { name: "Node.js", logo: "src/assets/tech-logos/nodejsStackedDark.svg" },
+    { name: "Express.js", logo: "src/assets/tech-logos/expressjs.svg" },
+    { name: "PostgreSQL", logo: "src/assets/tech-logos/postgresql.svg" },
+    { name: "MongoDB", logo: "src/assets/tech-logos/MongoDB.png" },
+    { name: "JavaScript", logo: "src/assets/tech-logos/javascript.svg" },
+    { name: "Tailwind CSS", logo: "src/assets/tech-logos/tailwindcss.svg" },
+    { name: "AWS", logo: "src/assets/tech-logos/aws.svg" },
+    { name: "Git", logo: "src/assets/tech-logos/git.svg" },
+    { name: "Jira", logo: "src/assets/tech-logos/jira.svg" },
+  ];
 
   return (
-    <section id="skills" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-green mb-8">Skills</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {Object.entries(skills).map(([category, skillsList], index) => (
-            <div
-              key={index}
-              className="bg-beige p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
-            >
-              <h3 className="text-xl font-semibold text-green mb-4">
-                {category}
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {skillsList.map((skill, i) => (
-                  <span
-                    key={i}
-                    className="bg-green text-black px-3 py-1 rounded-full text-sm"
-                  >
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
+    <section id="skills" className="py-12">
+      <h2 className="text-3xl font-bold mb-8">Skills</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+        {skills.map((skill, index) => (
+          <div key={index} className="flex flex-col items-center text-center">
+            <img
+              src={skill.logo}
+              alt={skill.name}
+              className="w-16 h-16 mb-2 object-contain"
+            />
+            <span>{skill.name}</span>
+          </div>
+        ))}
       </div>
     </section>
   );
-};
-
-export default Skills;
+}

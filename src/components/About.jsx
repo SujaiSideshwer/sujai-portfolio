@@ -1,22 +1,10 @@
-import React from "react";
-
-const About = () => {
+export function About() {
   return (
-    <section id="about" className="py-20 bg-beige fade-in">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-green mb-6">
-          Professional Summary
-        </h2>
-        <p className="text-black leading-relaxed">
-          A results-driven Full Stack Engineer with experience in building
-          scalable web applications. Skilled in design thinking, with a strong
-          focus on understanding user needs, prototyping solutions, and
-          delivering intuitive, user-centric applications. Passionate about
-          creating efficient, high-quality solutions through collaboration.
-        </p>
-      </div>
+    <section id="about" className="py-12">
+      <p className="text-xl">
+        A Full Stack Developer experienced in building scalable web applications
+        using the PERN stack (PostgreSQL, Express, React, Node.js).
+      </p>
     </section>
   );
-};
-
-export default About;
+}

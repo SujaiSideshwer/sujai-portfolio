@@ -1,24 +1,25 @@
-import React from "react";
-import Navbar from "./components/Navbar.jsx";
-import About from "./components/About.jsx";
-import Projects from "./components/Projects.jsx";
-import Experience from "./components/Experience.jsx";
-import Skills from "./components/Skills.jsx";
-import Contact from "./components/Contact.jsx";
-import Footer from "./components/Footer.jsx";
+// App.jsx
+import { useEffect, useState } from "react";
+import { Header } from "./components/Header";
+import { About } from "./components/About";
+import { Projects } from "./components/Projects";
+import { Experience } from "./components/Experience";
+import { Skills } from "./components/Skills";
+import { Education } from "./components/Education";
+import { Footer } from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
-    <div className="bg-beige text-black">
-      <Navbar />
-      <About />
-      <Projects />
-      <Experience />
-      <Skills />
-      <Contact />
+    <div className={`min-h-screen`}>
+      <Header />
+      <main className="p-4 max-w-6xl mx-auto">
+        <About />
+        <Projects />
+        <Experience />
+        <Skills />
+        <Education />
+      </main>
       <Footer />
     </div>
   );
 }
-
-export default App;

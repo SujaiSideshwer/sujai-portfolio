@@ -1,20 +1,36 @@
-import React from "react";
-
-const Contact = () => {
+export function Contact() {
   return (
-    <section id="contact" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-gray-800 mb-6">Contact Me</h2>
-        {/* <p className="text-gray-600 mb-4">Feel free to reach out to me at:</p> */}
+    <section id="contact" className="py-12">
+      <h2 className="text-3xl font-bold mb-4">Contact</h2>
+      <p>
+        Email:{" "}
         <a
           href="mailto:sideshwersujai1999@gmail.com"
           className="text-blue-500 hover:underline"
         >
           sideshwersujai1999@gmail.com
         </a>
-      </div>
+      </p>
+      <p>
+        LinkedIn:{" "}
+        <a
+          href="https://linkedin.com/in/sujai-sideshwer"
+          target="_blank"
+          className="text-blue-500 hover:underline"
+        >
+          linkedin.com/in/sujai-sideshwer
+        </a>
+      </p>
+      <p>
+        GitHub:{" "}
+        <a
+          href="https://github.com/SujaiSideshwer"
+          target="_blank"
+          className="text-blue-500 hover:underline"
+        >
+          github.com/SujaiSideshwer
+        </a>
+      </p>
     </section>
   );
-};
-
-export default Contact;
+}
