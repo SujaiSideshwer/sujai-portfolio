@@ -24,7 +24,7 @@ export function Skills() {
     },
     { name: "AWS", logo: "/images/tech-logos/aws.svg" },
     { name: "Git", logo: "/images/tech-logos/git.svg" },
-    { name: "Jira", logo: "/images/tech-logos/jira.svg" },
+    { name: "Jira", logo: "/images/tech-logos/Jira.svg" },
   ];
 
   return (
