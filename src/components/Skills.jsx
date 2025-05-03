@@ -1,30 +1,30 @@
 export function Skills() {
   const skills = [
-    { name: "React", logo: "/sujai-portfolio/images/tech-logos/react.svg" },
+    { name: "React", logo: "/images/tech-logos/react.svg" },
     {
       name: "Node.js",
-      logo: "/sujai-portfolio/images/tech-logos/nodejsStackedDark.svg",
+      logo: "/images/tech-logos/nodejsStackedDark.svg",
     },
     {
       name: "Express.js",
-      logo: "/sujai-portfolio/images/tech-logos/expressjs.svg",
+      logo: "/images/tech-logos/expressjs.svg",
     },
     {
       name: "PostgreSQL",
-      logo: "/sujai-portfolio/images/tech-logos/postgresql.svg",
+      logo: "/images/tech-logos/postgresql.svg",
     },
-    { name: "MongoDB", logo: "/sujai-portfolio/images/tech-logos/MongoDB.png" },
+    { name: "MongoDB", logo: "/images/tech-logos/MongoDB.png" },
     {
       name: "JavaScript",
-      logo: "/sujai-portfolio/images/tech-logos/javascript.svg",
+      logo: "/images/tech-logos/javascript.svg",
     },
     {
       name: "Tailwind CSS",
-      logo: "/sujai-portfolio/images/tech-logos/tailwindcss.svg",
+      logo: "/images/tech-logos/tailwindcss.svg",
     },
-    { name: "AWS", logo: "/sujai-portfolio/images/tech-logos/aws.svg" },
-    { name: "Git", logo: "/sujai-portfolio/images/tech-logos/git.svg" },
-    { name: "Jira", logo: "/sujai-portfolio/images/tech-logos/jira.svg" },
+    { name: "AWS", logo: "/images/tech-logos/aws.svg" },
+    { name: "Git", logo: "/images/tech-logos/git.svg" },
+    { name: "Jira", logo: "/images/tech-logos/jira.svg" },
   ];
 
   return (
