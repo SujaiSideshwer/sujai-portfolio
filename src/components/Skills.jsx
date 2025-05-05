@@ -13,7 +13,7 @@ export function Skills() {
       name: "PostgreSQL",
       logo: "images/tech-logos/postgresql.svg",
     },
-    { name: "MongoDB", logo: "/images/tech-logos/MongoDB.png" },
+    { name: "MongoDB", logo: "images/tech-logos/MongoDB.png" },
     {
       name: "JavaScript",
       logo: "images/tech-logos/javascript.svg",
