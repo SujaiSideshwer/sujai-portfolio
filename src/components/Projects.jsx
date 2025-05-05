@@ -25,37 +25,37 @@ export function Projects() {
       repo: "https://github.com/SujaiSideshwer/Youtube-Netflix-Clone-PERN-Stack",
       media: [
         {
-          src: "/images/netflix-clone/authscreen-1.jpg",
+          src: "images/netflix-clone/authscreen-1.JPG",
           caption: "Authentication Screen",
         },
         {
-          src: "/images/netflix-clone/signup-1.jpg",
+          src: "images/netflix-clone/signup-1.JPG",
           caption: "Signup Page",
         },
         {
-          src: "/images/netflix-clone/homescreen-1.jpg",
+          src: "images/netflix-clone/homescreen-1.JPG",
           caption: "Home Screen",
         },
         {
-          src: "/images/netflix-clone/homescreen-2.jpg",
+          src: "images/netflix-clone/homescreen-2.JPG",
           caption: "Home Screen - Shows videos that are trending in youtube",
         },
         {
-          src: "/images/netflix-clone/Playscreen-1.jpg",
+          src: "images/netflix-clone/Playscreen-1.JPG",
           caption:
             "Play Screen (1) - On clicking any video it leads to this page where videos can be played",
         },
         {
-          src: "/images/netflix-clone/Playscreen-2.jpg",
+          src: "images/netflix-clone/Playscreen-2.JPG",
           caption:
             "Play Screen (2) - Shows videos similar to the one being played",
         },
         {
-          src: "/images/netflix-clone/searchhistory-1.jpg",
+          src: "images/netflix-clone/searchhistory-1.JPG",
           caption: "Search History Page - To audit search history",
         },
         {
-          src: "/images/netflix-clone/searchscreen-1.jpg",
+          src: "images/netflix-clone/searchscreen-1.JPG",
           caption: "Search Screen - To search videos",
         },
         // "/assets/youtube-clone-demo.mp4",
@@ -85,35 +85,35 @@ export function Projects() {
       repo: "https://github.com/SujaiSideshwer/PERN-Stack-Event-App",
       media: [
         {
-          src: "/images/event-app/loginscreen.jpg",
+          src: "images/event-app/loginscreen.JPG",
           caption: "Login Page",
         },
         {
-          src: "/images/event-app/signupscreen.jpg",
+          src: "images/event-app/signupscreen.JPG",
           caption: "Signup Page",
         },
         {
-          src: "/images/event-app/eventscreen-1.jpg",
+          src: "images/event-app/eventscreen-1.JPG",
           caption:
             "Events Page - Lists all enlisted events available for booking",
         },
         {
-          src: "/images/event-app/eventpage-1.jpg",
+          src: "images/event-app/eventpage-1.JPG",
           caption:
             "Event Page (1) - Shows this screen on clicking each event, allowing audience to select from the available seats (Booked ones are highlighted)",
         },
         {
-          src: "/images/event-app/eventpage-2.jpg",
+          src: "images/event-app/eventpage-2.JPG",
           caption:
             "Event Page (2) - This is how seats get selected for booking",
         },
         {
-          src: "/images/event-app/ticketbooking-1.jpg",
+          src: "images/event-app/ticketbooking-1.JPG",
           caption:
             "A ticket gets automatically downloaded on proceeding to book and the seats are booked under your name",
         },
         {
-          src: "/images/event-app/mybookingspage.jpg",
+          src: "images/event-app/mybookingspage.JPG",
           caption:
             "My Bookings Page - Shows events booked by you and also allows cancellation",
         },
